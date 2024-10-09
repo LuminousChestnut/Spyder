@@ -4,7 +4,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 
 
-# 主函数（目标URL，鼠标开始的X坐标，鼠标开始的Y坐标，鼠标结束的X坐标，鼠标结束的Y坐标，标签项的XPATH，数值项的XPATH）
+# 主函数（目标 URL，鼠标开始的 X 坐标，鼠标开始的 Y 坐标，鼠标结束的 X 坐标，鼠标结束的 Y 坐标，标签项的 XPATH，数值项的 XPATH）
 def MainSpyder(target_url, start_x, start_y, end_x, end_y, step, xpath_of_label, xpath_of_number):
     # 使用 Selenium 驱动 Chrome
     driver = webdriver.Chrome()
